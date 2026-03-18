@@ -1,6 +1,6 @@
 "use client";
 
-export default function secondary_Button({
+export default function SecondaryButton({
   text,
   onClick,
   className = "",

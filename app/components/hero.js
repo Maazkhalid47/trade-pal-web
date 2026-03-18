@@ -45,7 +45,7 @@ export default function Hero() {
                 Or Your Next Job
               </motion.h1>
 
-              <div className="break-all text-center w-100 text-left m-auto md:m-0">
+              <div className="break-all text-center w-100 text-left m-auto md:m-0 md:px-0 px-5">
                 <p className="text-center md:text-left">
                   The simplest way to connect skilled tradespeople with
                   homeowners. No stress, no hidden fees, just quality local
@@ -53,7 +53,7 @@ export default function Hero() {
                 </p>
               </div>
 
-              <div className="flex gap-10">
+              <div className="flex gap-10 md:px-0 px-5">
                 <PrimaryButton
                   text="Get Early Access"
                   className="rounded-3xl!"
