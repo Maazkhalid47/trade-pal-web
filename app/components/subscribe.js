@@ -4,7 +4,10 @@ import SecondaryButton from "./secondary_button";
 
 const Subscribe = () => {
   return (
-    <div className="flex md:flex-row flex-col justify-center gap-10 text-center pb-20">
+    <div
+      className="flex md:flex-row flex-col justify-center gap-10 text-center pb-20"
+      id="early-access"
+    >
       <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 md:p-20 w-[400px] md:w-[1200px] mx-auto !bg-[#4169E1]">
         <p className="text-[48px] font-bold">
           Be the First to Try My Trade Pal

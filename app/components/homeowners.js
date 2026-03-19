@@ -10,7 +10,10 @@ const HomeOwners = () => {
   return (
     <>
       {" "}
-      <div className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20">
+      <div
+        className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20"
+        id="homeowners"
+      >
         <Card className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[400px] md:w-[500px] md:mx-0 mx-auto">
           <Image src="/house.png" alt="house" height={64} width={64} />
           <p className="font-semibold text-[#0F172A]">For Homeowners</p>
