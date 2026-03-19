@@ -1,6 +1,9 @@
+"use client";
+
 import React from "react";
 import Header from "../components/header";
-import Hero from "../components/hero";
+import Image from "next/image";
+import GradientIconButton from "../components/gradient_icon_button";
 
 const Register = () => {
   return (
@@ -30,7 +33,7 @@ const Register = () => {
                     Be the first to try My Trade Pal and connect locally. Join
                     our growing marketplace.
                   </p>
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-start gap-2">
                     <label
                       className="font-semibold text-[#94A3B8]"
                       htmlFor="name"
@@ -43,7 +46,7 @@ const Register = () => {
                       name="name"
                     ></input>
                   </div>
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-start gap-2">
                     <label
                       className="font-semibold text-[#94A3B8]"
                       htmlFor="email"
@@ -56,7 +59,7 @@ const Register = () => {
                       name="email"
                     ></input>
                   </div>
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-start gap-2">
                     <label
                       className="font-semibold text-[#94A3B8]"
                       htmlFor="area"
@@ -68,6 +71,21 @@ const Register = () => {
                       placeholder="Enter your city or area"
                       name="area"
                     ></input>
+                  </div>
+                  <div className="flex flex-col items-start gap-2">
+                    <label
+                      className="font-semibold text-[#94A3B8]"
+                      htmlFor="role"
+                    >
+                      ROLE / I&apos;M JOINING AS
+                    </label>
+                    <div className="grid grid-cols-2 gap-5">
+                      <GradientIconButton icon="/person.svg" alt="Customer" />
+                      <GradientIconButton
+                        icon="/setting.svg"
+                        alt="Tradeperson"
+                      />
+                    </div>
                   </div>
                 </form>
               </div>
