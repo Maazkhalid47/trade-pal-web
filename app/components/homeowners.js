@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import PrimaryButton from "./primary_button";
 import Card from "./card";
@@ -15,15 +16,15 @@ const HomeOwners = () => {
           <p className="font-semibold text-[#0F172A]">For Homeowners</p>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-black text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4" />
+              <img src="/tick-blue.svg" className="w-4 h-4" alt="1" />
               Get free, no-obligation quotes from local trades
             </li>
             <li className="flex items-center gap-2 text-black text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4" />
+              <img src="/tick-blue.svg" className="w-4 h-4" alt="2" />
               Only browse verified tradespeople with reviews
             </li>
             <li className="flex items-center gap-2 text-black text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4" />
+              <img src="/tick-blue.svg" className="w-4 h-4" alt="3" />
               Direct chat to manage bookings in one place
             </li>
           </ul>
@@ -39,15 +40,15 @@ const HomeOwners = () => {
           <p className="font-semibold text-[#0F172A]">For Tradespeople</p>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-black text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4" />
+              <img src="/tick-green.svg" className="w-4 h-4" alt="1" />
               Access steady stream of local jobs daily
             </li>
             <li className="flex items-center gap-2 text-black text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4" />
+              <img src="/tick-green.svg" className="w-4 h-4" alt="2" />
               Choose which jobs to respond to - no pressure
             </li>
             <li className="flex items-center gap-2 text-black text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4" />
+              <img src="/tick-green.svg" className="w-4 h-4" alt="3" />
               Pay only £7.99 when your quote is accepted
             </li>
           </ul>
