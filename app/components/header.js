@@ -38,7 +38,7 @@ const Header = () => {
             How it Works
           </a>
           <LinkButton
-            href="#early-access"
+            href="/register"
             text="Get Early Access"
             className="!rounded-3xl"
           />
@@ -75,7 +75,7 @@ const Header = () => {
             </a>
 
             <LinkButton
-              href="#early-access"
+              href="/register"
               text="Get Early Access"
               className="!rounded-3xl"
             />

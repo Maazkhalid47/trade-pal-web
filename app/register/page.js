@@ -1,11 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Header from "../components/header";
-import Image from "next/image";
 import GradientIconButton from "../components/gradient_icon_button";
+import PrimaryButton from "../components/primary_button";
 
 const Register = () => {
+  const [selected, setSelected] = useState(null);
+
   return (
     <main>
       <Header />
@@ -19,7 +21,7 @@ const Register = () => {
               }}
             >
               <div className="flex justify-center w-full">
-                <form className="rounded-3xl flex flex-col items-center justify-center w-[500px] h-[800px] my-40 p-15 gap-12 bg-white">
+                <form className="shadow-[#0000000A] mx-auto rounded-3xl flex flex-col items-center justify-center w-[400px] md:w-[500px] my-40 p-15 gap-12 bg-white">
                   <div className="flex flex-col md:flex-row gap-1 md:gap-2 items-center">
                     {" "}
                     <p className="text-black text-[28px] font-bold">
@@ -41,7 +43,7 @@ const Register = () => {
                       FULL NAME
                     </label>
                     <input
-                      className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[400px] md:text-left text-center"
+                      className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px] md:text-left text-center"
                       placeholder="Enter your full name"
                       name="name"
                     ></input>
@@ -54,7 +56,7 @@ const Register = () => {
                       EMAIL ADDRESS
                     </label>
                     <input
-                      className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[400px] md:text-left text-center"
+                      className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px] md:text-left text-center"
                       placeholder="Enter your email address"
                       name="email"
                     ></input>
@@ -67,7 +69,7 @@ const Register = () => {
                       CITY / AREA
                     </label>
                     <input
-                      className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[400px] md:text-left text-center"
+                      className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px] md:text-left text-center"
                       placeholder="Enter your city or area"
                       name="area"
                     ></input>
@@ -79,13 +81,41 @@ const Register = () => {
                     >
                       ROLE / I&apos;M JOINING AS
                     </label>
-                    <div className="grid grid-cols-2 gap-5">
-                      <GradientIconButton icon="/person.svg" alt="Customer" />
+                    <div className="grid grid-cols-2 gap-5 w-[300px] md:w-[400px]">
+                      <GradientIconButton
+                        icon="/person.svg"
+                        alt="Customer"
+                        isSelected={selected === "Customer"}
+                        onClick={() => setSelected("Customer")}
+                      />
                       <GradientIconButton
                         icon="/setting.svg"
                         alt="Tradeperson"
+                        isSelected={selected === "Tradeperson"}
+                        onClick={() => setSelected("Tradeperson")}
                       />
                     </div>
+                    <p className="text-[#64748B] py-5">
+                      I agree to the{" "}
+                      <a
+                        href="/privacy"
+                        className="text-[#4169E1] hover:underline"
+                      >
+                        Privacy Policy
+                      </a>{" "}
+                      and{" "}
+                      <a
+                        href="/terms"
+                        className="text-[#4169E1] hover:underline"
+                      >
+                        Terms of Service
+                      </a>
+                      . *
+                    </p>
+                    <PrimaryButton
+                      text="Join Early Access"
+                      className="w-full flex justify-center !bg-gradient-to-r !from-[#4169E1] !to-[#02C6C6]"
+                    />
                   </div>
                 </form>
               </div>
