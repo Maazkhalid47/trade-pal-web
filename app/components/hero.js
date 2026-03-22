@@ -15,7 +15,7 @@ export default function Hero() {
         }}
       >
         <div className="flex justify-center w-full">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-40 py-40 w-[400px] md:w-[1200px]">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-20 md:gap-40 py-40 w-[400px] md:w-[1200px]">
             {/* LEFT SIDE */}
             <div className="flex flex-col items-start gap-5">
               <Pill
@@ -56,14 +56,43 @@ export default function Hero() {
               <div className="flex gap-10 md:px-0 px-5">
                 <PrimaryButton
                   text="Get Early Access"
-                  className="rounded-3xl!"
+                  className="rounded-2xl!"
                   icon="/arrow.svg"
                 />
                 <SecondaryButton
                   text="I'm a TradePerson"
-                  className="rounded-3xl!"
+                  className="rounded-2xl!"
                   isHollow
                 />
+              </div>
+
+              <div className="pt-5 flex items-center gap-5 mx-auto w-[300px] md:w-full">
+                <div className="flex items-center">
+                  <Image
+                    src="/person-1.png"
+                    height={40}
+                    width={40}
+                    alt="person 1"
+                    className="rounded-full border-2 border-white"
+                  />
+                  <Image
+                    src="/person-2.png"
+                    height={40}
+                    width={40}
+                    alt="person 2"
+                    className="rounded-full border-2 border-white -ml-3"
+                  />
+                  <Image
+                    src="/person-3.png"
+                    height={40}
+                    width={40}
+                    alt="person 3"
+                    className="rounded-full border-2 border-white -ml-3"
+                  />
+                </div>
+                <p className="text-[#64748B]">
+                  Join 500+ locals on the waitlist
+                </p>
               </div>
             </div>
 

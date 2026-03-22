@@ -1,5 +1,12 @@
 import Image from "next/image";
 import LinkButton from "./link_button";
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["800"],
+});
+
 
 export const FormSubmitSuccess = () => {
   return (
@@ -23,7 +30,7 @@ export const FormSubmitSuccess = () => {
                 <Image src={"/tick.svg"} width={20} height={20} alt="success" />
               </div>
 
-              <p className="text-[36px] text-[#111827] font-bold">
+              <p className={`text-[36px] text-[#111827] ${inter.className}`}>
                 You're on the{" "}
                 <span className="bg-gradient-to-r from-[#4169E1] to-[#02C6C6] bg-clip-text text-transparent">
                   list

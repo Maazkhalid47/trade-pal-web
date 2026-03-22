@@ -29,7 +29,7 @@ export default function GradientIconButton({
       onClick={onClick}
     >
       <Image src={icon} width={width} height={height} alt={alt} />
-      <p className="text-[#475569] font-bold">{alt}</p>
+      <p className="text-[#475569] font-bold pt-2">{alt}</p>
     </div>
   );
 }
