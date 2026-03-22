@@ -1,9 +1,11 @@
+import { useRouter } from "next/navigation";
 import GradientIconButton from "../components/gradient_icon_button";
 import PrimaryButton from "../components/primary_button";
 import React, { useState } from "react";
 
 export const RegisterForm = () => {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState("Customer");
+  const router = useRouter();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -16,6 +18,7 @@ export const RegisterForm = () => {
     };
 
     console.log(data);
+    router.push('/success');
   };
 
   return (
@@ -54,9 +57,10 @@ export const RegisterForm = () => {
                     FULL NAME
                   </label>
                   <input
-                    className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px] md:text-left text-center"
+                    className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px]"
                     placeholder="Enter your full name"
                     name="name"
+                    required={true}
                   ></input>
                 </div>
                 <div className="flex flex-col items-start gap-2">
@@ -67,9 +71,10 @@ export const RegisterForm = () => {
                     EMAIL ADDRESS
                   </label>
                   <input
-                    className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px] md:text-left text-center"
+                    className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px]"
                     placeholder="Enter your email address"
                     name="email"
+                    required={true}
                   ></input>
                 </div>
                 <div className="flex flex-col items-start gap-2">
@@ -80,9 +85,10 @@ export const RegisterForm = () => {
                     CITY / AREA
                   </label>
                   <input
-                    className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px] md:text-left text-center"
+                    className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px]"
                     placeholder="Enter your city or area"
                     name="area"
+                    required={true}
                   ></input>
                 </div>
                 <div className="flex flex-col items-start gap-2">
