@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import PrimaryButton from "./primary_button";
 import Image from "next/image";
 import LinkButton from "./link_button";
 
