@@ -12,16 +12,15 @@ export default function GradientIconButton({
   onClick,
 }) {
   const [isHovered, setIsHovered] = useState(false);
-  const [isClicked, setIsClicked] = useState(false);
 
   return (
     <div
       className={`border-2 ${
         isSelected ? "border-[#02C6C6]" : "border-transparent"
-      } flex flex-col items-center justify-center py-5 px-15 rounded-2xl text-black md:text-left text-center transition-all duration-300 cursor-pointer`}
+      } flex flex-col items-center justify-center py-5 rounded-2xl text-black md:text-left text-center transition-all duration-300 cursor-pointer`}
       style={{
         background: isHovered
-          ? "linear-gradient(90deg, #4169E114 8%, #02C6C614 8%)"
+          ? "linear-gradient(45deg, #4169E114 8%, #02C6C614 8%)"
           : "#F8FAFC",
       }}
       onMouseEnter={() => setIsHovered(true)}
