@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import PrimaryButton from "./primary_button";
 import Image from "next/image";
 import LinkButton from "./link_button";
 
@@ -38,7 +37,7 @@ const Header = () => {
             How it Works
           </a>
           <LinkButton
-            href="#early-access"
+            href="/register"
             text="Get Early Access"
             className="!rounded-3xl"
           />
@@ -75,7 +74,7 @@ const Header = () => {
             </a>
 
             <LinkButton
-              href="#early-access"
+              href="/register"
               text="Get Early Access"
               className="!rounded-3xl"
             />
