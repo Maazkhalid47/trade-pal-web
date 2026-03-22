@@ -2,6 +2,12 @@ import { useRouter } from "next/navigation";
 import GradientIconButton from "../components/gradient_icon_button";
 import PrimaryButton from "../components/primary_button";
 import React, { useState } from "react";
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["800"],
+});
 
 export const RegisterForm = () => {
   const [selected, setSelected] = useState("Customer");
@@ -18,7 +24,7 @@ export const RegisterForm = () => {
     };
 
     console.log(data);
-    router.push('/success');
+    router.push("/success");
   };
 
   return (
@@ -34,14 +40,17 @@ export const RegisterForm = () => {
             <div className="flex justify-center w-full">
               <form
                 onSubmit={handleSubmit}
-                className="shadow-[#0000000A] mx-auto rounded-3xl flex flex-col items-center justify-center w-[400px] md:w-[500px] my-40 p-15 gap-12 bg-white"
+                className="shadow-[#0000000A] mx-auto rounded-3xl flex flex-col items-center justify-center w-[400px] md:w-[500px] my-40 p-15 gap-12 bg-white relative"
               >
+                <div className="rounded-full bg-gradient-to-r from-[#02C6C614] to-[#fff] w-[150px] h-[150px] absolute top-[-50] right-0"></div>
                 <div className="flex flex-col md:flex-row gap-1 md:gap-2 items-center">
                   {" "}
-                  <p className="text-black text-[28px] font-bold">
+                  <p className={`text-black text-[28px] ${inter.className}`}>
                     Early Access
                   </p>
-                  <p className="text-[#02C6C6F2] text-[28px] font-bold">
+                  <p
+                    className={`bg-clip-text text-transparent text-[28px] bg-gradient-to-r from-[#4169E1] to-[#02C6C6] ${inter.className}`}
+                  >
                     Registration
                   </p>
                 </div>
@@ -58,7 +67,7 @@ export const RegisterForm = () => {
                   </label>
                   <input
                     className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px]"
-                    placeholder="Enter your full name"
+                    placeholder="e.g. John Doe"
                     name="name"
                     required={true}
                   ></input>
@@ -72,7 +81,7 @@ export const RegisterForm = () => {
                   </label>
                   <input
                     className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px]"
-                    placeholder="Enter your email address"
+                    placeholder="john@example.com"
                     name="email"
                     required={true}
                   ></input>
@@ -84,12 +93,18 @@ export const RegisterForm = () => {
                   >
                     CITY / AREA
                   </label>
-                  <input
-                    className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px]"
-                    placeholder="Enter your city or area"
-                    name="area"
-                    required={true}
-                  ></input>
+                  <div className="relative w-[300px] md:w-[400px]">
+                    <span className="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none">
+                      <img src="/pin.svg" className="w-5 h-5" />
+                    </span>
+
+                    <input
+                      className="w-full bg-[#F8FAFC] p-3 pl-10 rounded-2xl text-black"
+                      placeholder="London, UK"
+                      name="area"
+                      required
+                    />
+                  </div>
                 </div>
                 <div className="flex flex-col items-start gap-2">
                   <p className="font-semibold text-[#94A3B8]">
