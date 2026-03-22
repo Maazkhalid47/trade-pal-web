@@ -18,15 +18,15 @@ const HomeOwners = () => {
           <Image src="/house.png" alt="house" height={64} width={64} />
           <p className="font-semibold text-[#0F172A]">For Homeowners</p>
           <ul className="flex flex-col items-start gap-2">
-            <li className="flex items-center gap-2 text-black text-[14px]">
+              <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-blue.svg" className="w-4 h-4" alt="1" />
               Get free, no-obligation quotes from local trades
             </li>
-            <li className="flex items-center gap-2 text-black text-[14px]">
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-blue.svg" className="w-4 h-4" alt="2" />
               Only browse verified tradespeople with reviews
             </li>
-            <li className="flex items-center gap-2 text-black text-[14px]">
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-blue.svg" className="w-4 h-4" alt="3" />
               Direct chat to manage bookings in one place
             </li>
@@ -42,15 +42,15 @@ const HomeOwners = () => {
           <Image src="/wrench.png" alt="house" height={64} width={64} />
           <p className="font-semibold text-[#0F172A]">For Tradespeople</p>
           <ul className="flex flex-col items-start gap-2">
-            <li className="flex items-center gap-2 text-black text-[14px]">
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-green.svg" className="w-4 h-4" alt="1" />
               Access steady stream of local jobs daily
             </li>
-            <li className="flex items-center gap-2 text-black text-[14px]">
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-green.svg" className="w-4 h-4" alt="2" />
               Choose which jobs to respond to - no pressure
             </li>
-            <li className="flex items-center gap-2 text-black text-[14px]">
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-green.svg" className="w-4 h-4" alt="3" />
               Pay only £7.99 when your quote is accepted
             </li>
@@ -72,7 +72,7 @@ const HomeOwners = () => {
               Homeowners
             </p>
           </div>
-          <p className="relative text-black pt-3 text-center">
+          <p className="relative text-[#475569] pt-3 text-center">
             Simple steps for Homeowners
             <span className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[5px] bg-[#4169E1]"></span>
           </p>
@@ -95,7 +95,7 @@ const HomeOwners = () => {
               <p className="text-[#0F172A] font-bold pt-5 pb-2">
                 1. Post a Job
               </p>
-              <p className="text-black">
+              <p className="text-[#475569]">
                 Describe the work, budget, and location.
               </p>
             </div>
@@ -110,7 +110,7 @@ const HomeOwners = () => {
               <p className="text-[#0F172A] font-bold pt-5 pb-2">
                 2. Receive Applications
               </p>
-              <p className="text-black">
+              <p className="text-[#475569]">
                 Skilled tradespeople express interest.
               </p>
             </div>
@@ -125,7 +125,7 @@ const HomeOwners = () => {
               <p className="text-[#0F172A] font-bold pt-5 pb-2">
                 3. Compare & Chat
               </p>
-              <p className="text-black">
+              <p className="text-[#475569]">
                 Reviews, profiles, message them,and request quotes.
               </p>
             </div>
@@ -140,7 +140,7 @@ const HomeOwners = () => {
               <p className="text-[#0F172A] font-bold pt-5 pb-2">
                 4. Hire & Get It Done
               </p>
-              <p className="text-black">
+              <p className="text-[#475569]">
                 Choose the best fit and get your job completed.
               </p>
             </div>

@@ -15,7 +15,7 @@ const Trades = () => {
           <p className="text-black text-[28px]">How It Works for</p>
           <p className="text-[#02C6C6F2] text-[28px] font-semibold">Trades</p>
         </div>
-        <p className="relative text-black pt-3 text-center">
+        <p className="relative text-[#475569] pt-3 text-center">
           Streamlined process for Tradespeople
           <span className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[5px] bg-[#02C6C6F2]"></span>
         </p>
@@ -37,7 +37,7 @@ const Trades = () => {
               width={18}
             />
             <p className="text-[#0F172A] font-bold pt-5 pb-2">1. Browse Jobs</p>
-            <p className="text-black">Find jobs that match your skills.</p>
+            <p className="text-[#475569]">Find jobs that match your skills.</p>
           </div>
           <div className="flex flex-col justify-start items-center">
             <IconCard
@@ -50,7 +50,7 @@ const Trades = () => {
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
               2. Apply for Work
             </p>
-            <p className="text-black">Submit your interest to the customer.</p>
+            <p className="text-[#475569]">Submit your interest to the customer.</p>
           </div>
           <div className="flex flex-col justify-start items-center">
             <IconCard
@@ -63,7 +63,7 @@ const Trades = () => {
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
               3. Chat & Quote
             </p>
-            <p className="text-black">
+            <p className="text-[#475569]">
               Discuss details and provide your price.
             </p>
           </div>
@@ -78,7 +78,7 @@ const Trades = () => {
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
               4. Complete the Job & Get Paid
             </p>
-            <p className="text-black">
+            <p className="text-[#475569]">
               Deliver great work and grow your reputation.
             </p>
           </div>

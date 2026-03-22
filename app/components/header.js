@@ -19,19 +19,19 @@ const Header = () => {
 
         <div className="hidden md:flex gap-8 items-center">
           <a
-            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer"
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
             href="#homeowners"
           >
             Homeowners
           </a>
           <a
-            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer"
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
             href="#trades"
           >
             Tradespeople
           </a>
           <a
-            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer"
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
             href="#working"
           >
             How it Works
@@ -39,7 +39,7 @@ const Header = () => {
           <LinkButton
             href="/register"
             text="Get Early Access"
-            className="!rounded-3xl"
+            className="!rounded-2xl"
           />
         </div>
 
@@ -55,19 +55,19 @@ const Header = () => {
         <div className="absolute top-[80px] w-full px-5 md:hidden">
           <div className="bg-white rounded-2xl shadow-lg flex flex-col items-center gap-5 py-6">
             <a
-              className="nav-link text-[#4169E1] hover:text-[#02C6C6]"
+              className="nav-link text-[#4169E1] hover:text-[#02C6C6] font-semibold"
               href="#homeowners"
             >
               Homeowners
             </a>
             <a
-              className="nav-link text-[#4169E1] hover:text-[#02C6C6]"
+              className="nav-link text-[#4169E1] hover:text-[#02C6C6] font-semibold"
               href="#trades"
             >
               Tradespeople
             </a>
             <a
-              className="nav-link text-[#4169E1] hover:text-[#02C6C6]"
+              className="nav-link text-[#4169E1] hover:text-[#02C6C6] font-semibold"
               href="#working"
             >
               How it Works
@@ -76,7 +76,7 @@ const Header = () => {
             <LinkButton
               href="/register"
               text="Get Early Access"
-              className="!rounded-3xl"
+              className="!rounded-2xl"
             />
           </div>
         </div>

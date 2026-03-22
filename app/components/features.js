@@ -32,7 +32,7 @@ const Features = () => {
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
               Direct Access to Real Opportunities
             </p>
-            <p className="text-black">
+            <p className="text-[#475569]">
               No middlemen. Connect directly with customers or tradespeople in
               your area.
             </p>
@@ -52,7 +52,7 @@ const Features = () => {
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
               Faster Hiring, Less Hassle
             </p>
-            <p className="text-black">
+            <p className="text-[#475569]">
               Post once, receive applications, compare, and hire — all in
               minutes.
             </p>
@@ -73,7 +73,7 @@ const Features = () => {
               {" "}
               Professional Profiles That Build Trust
             </p>
-            <p className="text-black">
+            <p className="text-[#475569]">
               Showcase your skills, qualifications, and experience.
             </p>
           </div>
@@ -92,7 +92,7 @@ const Features = () => {
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
               Secure Payments (Coming Soon)
             </p>
-            <p className="text-black">
+            <p className="text-[#475569]">
               Find work or help right in your own neighborhood.
             </p>
           </div>

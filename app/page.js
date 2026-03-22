@@ -25,7 +25,7 @@ export default function Home() {
                 Both Sides
               </p>
             </div>
-            <p className="text-black text-[18px]">
+            <p className="text-[#475569] text-[18px]">
               Whatever your goal, My Trade Pal simplifies the process.
             </p>
           </Card>

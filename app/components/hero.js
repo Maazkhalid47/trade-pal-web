@@ -56,12 +56,12 @@ export default function Hero() {
               <div className="flex gap-10 md:px-0 px-5">
                 <PrimaryButton
                   text="Get Early Access"
-                  className="rounded-3xl!"
+                  className="rounded-2xl!"
                   icon="/arrow.svg"
                 />
                 <SecondaryButton
                   text="I'm a TradePerson"
-                  className="rounded-3xl!"
+                  className="rounded-2xl!"
                   isHollow
                 />
               </div>
