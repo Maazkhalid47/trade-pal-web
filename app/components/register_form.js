@@ -1,29 +1,62 @@
+"use client";
+
 import { useRouter } from "next/navigation";
 import GradientIconButton from "../components/gradient_icon_button";
 import PrimaryButton from "../components/primary_button";
 import React, { useState } from "react";
 import { Inter } from "next/font/google";
+import { toast } from "react-toastify";
 
 const inter = Inter({
   subsets: ["latin"],
   weight: ["800"],
 });
 
+const notifyError = (msg) => {
+  toast.error(msg ?? "An error occurred!", {
+    position: "top-right", // Optional: customize position
+    autoClose: 5000, // Optional: auto-close time in ms
+  });
+};
+
 export const RegisterForm = () => {
   const [selected, setSelected] = useState("Customer");
   const router = useRouter();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const formData = new FormData(e.currentTarget);
 
     const data = {
-      ...Object.fromEntries(formData.entries()),
-      role: selected,
+      name: formData.get("name"),
+      email: formData.get("email"),
     };
 
-    console.log(data);
+    const res = await fetch("/api/user", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+
+    const result = await res.json();
+
+    if (!res.ok) {
+      if (
+        result.error.includes("duplicate") &&
+        result.error.includes("email")
+      ) {
+        notifyError("Email is already used!");
+      } else {
+        notifyError(result.error || "Something went wrong");
+      }
+      return;
+    }
+
+    console.log("data", result);
+
     router.push("/success");
   };
 
