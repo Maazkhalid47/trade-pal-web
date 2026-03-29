@@ -7,6 +7,7 @@ export default function PrimaryButton({
   onClick,
   className = "",
   icon = "",
+  children,
 }) {
   return (
     <button
@@ -15,7 +16,7 @@ export default function PrimaryButton({
       transition-all duration-300 hover:opacity-90 hover:scale-[1.02] flex gap-2
       active:scale-[0.98] ${className}`}
     >
-      {text}
+      {text || children}
       {icon && <Image src={icon} alt="Icon" height={12} width={12} />}
     </button>
   );
