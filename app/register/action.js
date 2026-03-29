@@ -1,49 +1,63 @@
 "use server";
 
-import { redirect } from "next/navigation";
 import { createClient } from "../utils/supabase/server";
 
-export async function register(formData) {
-  const name = formData.get("name");
-  const email = formData.get("email");
-  const password = formData.get("password");
-  const role = formData.get("role");
-  const area = formData.get("area");
+export async function register(submittedData) {
+  const name = submittedData.name;
+  const email = submittedData.email;
+  const password = submittedData.password;
+  const role = submittedData.role;
+  const area = submittedData.area;
 
   const supabase = await createClient();
 
+  // Register supabase user
   const { error, data } = await supabase.auth.signUp({
     email,
     password,
     options: {
-      data: {
-        name,
-      },
+      data: { name },
       emailRedirectTo: `${process.env.NEXT_PUBLIC_SITE_URL}/auth/callback`,
     },
   });
 
   if (error) {
-    console.error(error.message);
     return { success: false, message: error.message };
   }
-  console.log("Registering success:", data);
-  const userId = data.user.id;
 
-  await supabase.from("users").insert({
-    user_key: userId,
-    name: name,
-    email: email,
-  });
+  const authUserId = data.user.id;
+
+  // Create public.users entry
+  const { data: userData, error: userError } = await supabase
+    .from("users")
+    .insert({
+      user_key: authUserId,
+      name,
+      email,
+    })
+    .select()
+    .single();
+
+  if (userError) {
+    return { success: false, message: userError.message };
+  }
+
+  const appUserId = userData.id;
 
   await supabase.from("locations").insert({
-    user_id: userId,
-    street_address: area,
+    user_id: appUserId,
+    street: area,
   });
 
+  const { data: roleData } = await supabase
+    .from("roles")
+    .select("id")
+    .ilike("name", `%${role}%`)
+    .single();
+
   await supabase.from("user_roles").insert({
-    user_id: userId,
-    role: role,
+    user_id: appUserId,
+    role_id: roleData?.id,
   });
 
   return { success: true, message: "Registration successful!" };

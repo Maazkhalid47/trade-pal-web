@@ -20,7 +20,14 @@ export const RegisterForm = () => {
 
   const handleSubmit = async (formData) => {
     startTransition(async () => {
-      const res = await register(formData);
+      const data = Object.fromEntries(formData.entries());
+
+      const payload = {
+        ...data,
+        role: selected,
+      };
+
+      const res = await register(payload);
 
       if (!res.success) {
         toast.error(res.message);
@@ -139,9 +146,9 @@ export const RegisterForm = () => {
                     />
                     <GradientIconButton
                       icon="/setting.svg"
-                      alt="Tradeperson"
-                      isSelected={selected === "Tradeperson"}
-                      onClick={() => setSelected("Tradeperson")}
+                      alt="Tradesperson"
+                      isSelected={selected === "Tradesperson"}
+                      onClick={() => setSelected("Tradesperson")}
                     />
                   </div>
                   <p className="text-[#64748B] py-5">
