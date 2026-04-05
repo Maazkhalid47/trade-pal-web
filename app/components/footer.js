@@ -35,10 +35,10 @@ const Footer = () => {
             <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Company
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#about-us">
               About Us
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#mission">
               Our Mission
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white">

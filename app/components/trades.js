@@ -13,7 +13,7 @@ const Trades = () => {
         <div className="flex flex-col md:flex-row gap-1 md:gap-2 items-center">
           {" "}
           <p className="text-black text-[28px]">How It Works for</p>
-          <p className="text-[#02C6C6F2] text-[28px] font-semibold">Trades</p>
+          <p className="text-[#02C6C6F2] text-[28px] font-semibold">Tradespeople</p>
         </div>
         <p className="relative text-[#475569] pt-3 text-center">
           Streamlined process for Tradespeople
@@ -22,7 +22,7 @@ const Trades = () => {
         <div className="flex justify-end w-full pb-5">
           <Pill
             icon="/cash.svg"
-            text="£7.99 charged only when accepted"
+            text="Only pay a small fee when accepted"
             className="bg-[#02C6C61A]"
             textClass="text-[#02C6C6F2]"
           />

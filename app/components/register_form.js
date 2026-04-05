@@ -2,7 +2,7 @@
 
 import GradientIconButton from "../components/gradient_icon_button";
 import PrimaryButton from "../components/primary_button";
-import React, { useState, useTransition } from "react";
+import React, { useEffect, useState, useTransition } from "react";
 import { Inter } from "next/font/google";
 import { register } from "../register/action";
 import { useRouter } from "next/navigation";
@@ -17,6 +17,16 @@ export const RegisterForm = () => {
   const [isPending, startTransition] = useTransition();
   const [selected, setSelected] = useState("Customer");
   const router = useRouter();
+
+  const [defaultEmail, setDefaultEmail] = useState("");
+
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const emailFromQuery = urlParams.get("email");
+    if (emailFromQuery) {
+      setDefaultEmail(emailFromQuery);
+    }
+  }, []);
 
   const handleSubmit = async (formData) => {
     startTransition(async () => {
@@ -94,6 +104,8 @@ export const RegisterForm = () => {
                     className="bg-[#F8FAFC] p-3 rounded-2xl text-black w-[300px] md:w-[400px]"
                     placeholder="john@example.com"
                     name="email"
+                    type="email"
+                    defaultValue={defaultEmail}
                     required={true}
                   ></input>
                 </div>{" "}
