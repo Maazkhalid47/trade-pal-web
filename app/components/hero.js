@@ -32,10 +32,7 @@ export default function Hero() {
   return (
     <section className="text-center w-full">
       <div
-        className="w-full bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url(/bg.png)",
-        }}
+        className="w-full bg-cover bg-center bg-no-repeat bg-gray-100"
       >
         <div className="flex justify-center w-full">
           <div className="flex flex-col md:flex-row items-center justify-center gap-20 md:gap-40 py-40 w-[400px] md:w-[1200px]">
@@ -54,7 +51,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                className="text-5xl font-bold"
+                className="text-5xl font-bold text-white"
               >
                 Find Trusted Trades-
               </motion.h1>
@@ -69,7 +66,7 @@ export default function Hero() {
               </motion.h1>
 
               <div className="break-all text-center w-100 text-left m-auto md:m-0 md:px-0 px-5">
-                <p className="text-center md:text-left">
+                <p className="text-center md:text-left text-[#475569]">
                   The simplest way to connect skilled tradespeople with
                   homeowners. No stress, no hidden fees, just quality local
                   work.

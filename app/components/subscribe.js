@@ -1,8 +1,21 @@
+"use client";
+
 import React from "react";
 import Card from "./card";
 import SecondaryButton from "./secondary_button";
+import { useRouter } from "next/navigation";
 
 const Subscribe = () => {
+  const router = useRouter();
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const email = formData.get("email");
+
+    router.push(`/register?email=${encodeURIComponent(email)}`);
+  }
+  
   return (
     <div
       className="flex md:flex-row flex-col justify-center gap-10 text-center pb-20"
@@ -16,13 +29,15 @@ const Subscribe = () => {
           Join our early access list and get notified when we launch in your
           area. No spam, just updates.
         </p>
-        <div className="flex flex-col md:flex-row gap-3">
+        <form className="flex flex-col md:flex-row gap-3" onSubmit={handleSubmit}>
           <input
             className="bg-white p-3 rounded-xl text-black w-[300px] md:text-left text-center"
             placeholder="Enter your email"
+            name="email"
+            type="email"
           ></input>
           <SecondaryButton text="Join Early Access" className="rounded-xl!" />
-        </div>
+        </form>
       </Card>
     </div>
   );
