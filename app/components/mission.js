@@ -6,7 +6,7 @@ const Mission = () => {
   return (
     <div
       className="flex md:flex-row flex-col justify-center gap-10 text-center pb-20"
-      id="working"
+      id="mission"
     >
       <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 w-[400px] md:w-[1200px] mx-auto">
         <div className="flex flex-col md:flex-row gap-1 md:gap-2 items-center">

@@ -8,6 +8,7 @@ import Features from "./components/features";
 import Testimonials from "./components/testimonials";
 import Subscribe from "./components/subscribe";
 import Mission from "./components/mission";
+import AboutUs from "./components/about-us";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         <HomeOwners />
         <Trades />
         <Features />
+        <AboutUs />
         <Mission />
         <Testimonials />
         <Subscribe />
