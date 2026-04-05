@@ -4,8 +4,31 @@ import PrimaryButton from "./primary_button";
 import SecondaryButton from "./secondary_button";
 import Image from "next/image";
 import Pill from "./pill";
+import { createClient } from "../utils/supabase/client";
+import React from "react";
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
+  const router = useRouter();
+  const [userCount, setUserCount] = React.useState(0);
+
+  const getUsersCount = async () => {
+    const supabase = await createClient();
+
+    const { data, error } = await supabase.from("users").select("*", {
+      count: "exact",
+    });
+    if (error) {
+      console.error("Error fetching user count:", error);
+    } else {
+      setUserCount(data.length);
+    }
+  }
+
+  React.useEffect(() => {
+    getUsersCount();
+  }, []);
+
   return (
     <section className="text-center w-full">
       <div
@@ -58,6 +81,7 @@ export default function Hero() {
                   text="Get Early Access"
                   className="rounded-2xl!"
                   icon="/arrow.svg"
+                  onClick={() => router.push('/register')}
                 />
                 <SecondaryButton
                   text="I'm a TradePerson"
@@ -91,7 +115,7 @@ export default function Hero() {
                   />
                 </div>
                 <p className="text-[#64748B]">
-                  Join 500+ locals on the waitlist
+                  Join {userCount.toLocaleString()}+ locals on the waitlist
                 </p>
               </div>
             </div>

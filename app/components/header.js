@@ -32,7 +32,7 @@ const Header = () => {
           </a>
           <a
             className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
-            href="#working"
+            href="#homeowners"
           >
             How it Works
           </a>
@@ -68,7 +68,7 @@ const Header = () => {
             </a>
             <a
               className="nav-link text-[#4169E1] hover:text-[#02C6C6] font-semibold"
-              href="#working"
+              href="#homeowners"
             >
               How it Works
             </a>
