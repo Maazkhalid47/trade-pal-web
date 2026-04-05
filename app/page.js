@@ -7,6 +7,7 @@ import Trades from "./components/trades";
 import Features from "./components/features";
 import Testimonials from "./components/testimonials";
 import Subscribe from "./components/subscribe";
+import Mission from "./components/mission";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <HomeOwners />
         <Trades />
         <Features />
+        <Mission />
         <Testimonials />
         <Subscribe />
       </div>
