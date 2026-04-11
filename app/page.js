@@ -10,6 +10,10 @@ import Subscribe from "./components/subscribe";
 import Mission from "./components/mission";
 import AboutUs from "./components/about-us";
 
+export const metadata = {
+  title: "Home | My Trade Pal",
+};
+
 export default function Home() {
   return (
     <main>
