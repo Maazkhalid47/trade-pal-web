@@ -31,8 +31,11 @@ export default function Hero() {
 
   return (
     <section className="text-center w-full">
-      <div
-        className="w-full bg-cover bg-center bg-no-repeat bg-gray-100"
+       <div
+        className="w-full bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url(/bg.png)",
+        }}
       >
         <div className="flex justify-center w-full">
           <div className="flex flex-col md:flex-row items-center justify-center gap-20 md:gap-40 py-40 w-[400px] md:w-[1200px]">
