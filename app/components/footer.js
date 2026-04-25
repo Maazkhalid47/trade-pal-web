@@ -52,10 +52,10 @@ const Footer = () => {
             <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Legal
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/privacy-policy">
               Privacy Policy
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/terms-and-conditions">
               Terms of Service
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white">

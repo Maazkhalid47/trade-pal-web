@@ -20,19 +20,19 @@ const Header = () => {
         <div className="hidden md:flex gap-8 items-center">
           <a
             className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
-            href="#homeowners"
+            href="/#both-sides"
           >
             Homeowners
           </a>
           <a
             className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
-            href="#trades"
+            href="/#both-sides"
           >
             Tradespeople
           </a>
           <a
             className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
-            href="#homeowners"
+            href="/#homeowners"
           >
             How it Works
           </a>
