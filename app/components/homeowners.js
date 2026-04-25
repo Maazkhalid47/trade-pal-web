@@ -10,15 +10,15 @@ const HomeOwners = () => {
   return (
     <>
       {" "}
-      <div
-        className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20"
-        id="homeowners"
-      >
-        <Card className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[400px] md:w-[500px] md:mx-0 mx-auto">
+      <div className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20">
+        <Card
+          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[400px] md:w-[500px] md:mx-0 mx-auto"
+          id="homeowners"
+        >
           <Image src="/house.png" alt="house" height={64} width={64} />
           <p className="font-semibold text-[#0F172A]">For Homeowners</p>
           <ul className="flex flex-col items-start gap-2">
-              <li className="flex items-center gap-2 text-[#475569] text-[14px]">
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-blue.svg" className="w-4 h-4" alt="1" />
               Get free, no-obligation quotes from local trades
             </li>
