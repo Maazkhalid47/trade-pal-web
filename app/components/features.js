@@ -20,7 +20,7 @@ const Features = () => {
           <div
             className="flex flex-col justify-start items-center border rounded-3xl border-[#F1F5F9] shadow-lg p-5 
                 transition-all duration-300 ease-in-out 
-                hover:scale-105 hover:bg-[#02C6C60D]"
+                hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
               src="/access.png"
@@ -40,7 +40,7 @@ const Features = () => {
           <div
             className="flex flex-col justify-start items-center border rounded-3xl border-[#F1F5F9] shadow-lg p-5 
                 transition-all duration-300 ease-in-out 
-                hover:scale-105 hover:bg-[#02C6C60D]"
+                hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
               src="/chat.png"
@@ -60,7 +60,7 @@ const Features = () => {
           <div
             className="flex flex-col justify-start items-center border rounded-3xl border-[#F1F5F9] shadow-lg p-5 
                 transition-all duration-300 ease-in-out 
-                hover:scale-105 hover:bg-[#02C6C60D]"
+                hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
               src="/money.png"
@@ -80,7 +80,7 @@ const Features = () => {
           <div
             className="flex flex-col justify-start items-center border rounded-3xl border-[#F1F5F9] shadow-lg p-5 
                 transition-all duration-300 ease-in-out 
-                hover:scale-105 hover:bg-[#02C6C60D]"
+                hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
               src="/location.png"

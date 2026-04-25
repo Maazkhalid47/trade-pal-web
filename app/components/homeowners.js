@@ -12,7 +12,8 @@ const HomeOwners = () => {
       {" "}
       <div className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20">
         <Card
-          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[400px] md:w-[500px] md:mx-0 mx-auto"
+          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[400px] md:w-[500px] md:mx-0 mx-auto transition-all duration-300 
+          ease-in-out hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           id="homeowners"
         >
           <Image src="/house.png" alt="house" height={64} width={64} />
@@ -38,7 +39,10 @@ const HomeOwners = () => {
             />
           </div>
         </Card>
-        <Card className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[400px] md:w-[500px] !bg-transparent border border-[#00B3B333] md:mx-0 mx-auto">
+        <Card
+         className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[400px] md:w-[500px] md:mx-0 mx-auto transition-all duration-300 
+         ease-in-out hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
+        >
           <Image src="/wrench.png" alt="house" height={64} width={64} />
           <p className="font-semibold text-[#0F172A]">For Tradespeople</p>
           <ul className="flex flex-col items-start gap-2">
