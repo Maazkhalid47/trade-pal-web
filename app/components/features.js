@@ -90,10 +90,12 @@ const Features = () => {
               width={50}
             />
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
-              Secure Payments (Coming Soon)
+              Secure Payments with Stripe
             </p>
             <p className="text-[#475569]">
-              Find work or help right in your own neighborhood.
+              Payments are securely processed by Stripe with encryption and
+              PCI-compliant protection. Your card details stay private and are
+              never stored on TradersLounge.
             </p>
           </div>
         </div>
