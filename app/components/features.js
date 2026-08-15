@@ -13,7 +13,7 @@ const Features = () => {
           {" "}
           <p className="text-[#000088] text-[28px]">Why Choose</p>
           <p className="text-[#000088] text-[28px] font-semibold">
-            TradersLounge?
+            My Trade Pal?
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-5">
@@ -95,7 +95,7 @@ const Features = () => {
             <p className="text-[#475569]">
               Payments are securely processed by Stripe with encryption and
               PCI-compliant protection. Your card details stay private and are
-              never stored on TradersLounge.
+              never stored on My Trade Pal.
             </p>
           </div>
         </div>
