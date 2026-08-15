@@ -23,8 +23,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/access.png"
-              alt="img-1"
+              src="/handshake.png"
+              alt="Direct access to real opportunities icon"
               color="#fff"
               height={50}
               width={50}
@@ -43,8 +43,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/chat.png"
-              alt="img-3"
+              src="/lightning.png"
+              alt="Faster hiring icon"
               color="#fff"
               height={50}
               width={50}
@@ -63,7 +63,7 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/location.png"
+              src="/person-1.png"
               alt="Professional profile icon"
               color="#fff"
               height={50}
@@ -83,8 +83,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/money.png"
-              alt="Secure payments icon"
+              src="/shield.png"
+              alt="Secure payments with Stripe icon"
               color="#fff"
               height={50}
               width={50}
