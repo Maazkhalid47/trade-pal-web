@@ -63,8 +63,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/money.png"
-              alt="img-4"
+              src="/location.png"
+              alt="Professional profile icon"
               color="#fff"
               height={50}
               width={50}
@@ -83,8 +83,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/location.png"
-              alt="img-4"
+              src="/money.png"
+              alt="Secure payments icon"
               color="#fff"
               height={50}
               width={50}
