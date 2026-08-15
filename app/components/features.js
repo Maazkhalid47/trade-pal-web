@@ -63,8 +63,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/tick-blue.svg"
-              alt="Verified professional profile icon"
+              src="/check.png"
+              alt="Trusted professional profile icon"
               color="#fff"
               height={50}
               width={50}
