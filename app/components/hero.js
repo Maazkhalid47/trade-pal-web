@@ -121,13 +121,20 @@ export default function Hero() {
             </div>
 
             {/* RIGHT SIDE */}
-            <div className="w-[250px] border-[15px] rounded-[40px] border-black">
-              <Image
-                src="/phone.png"
-                alt="App Preview"
-                height={650}
-                width={350}
-              />
+            <div className="relative w-[276px] rounded-[44px] bg-[#111827] p-[10px] shadow-[0_28px_70px_rgba(15,23,42,0.35),0_8px_18px_rgba(15,23,42,0.2)] ring-1 ring-[#334155]">
+              <div className="absolute -right-[4px] top-28 h-16 w-[4px] rounded-r-full bg-[#334155]" aria-hidden="true" />
+              <div className="absolute -left-[4px] top-24 h-10 w-[4px] rounded-l-full bg-[#334155]" aria-hidden="true" />
+              <div className="absolute -left-[4px] top-40 h-16 w-[4px] rounded-l-full bg-[#334155]" aria-hidden="true" />
+              <div className="relative overflow-hidden rounded-[36px] bg-[#f8fafc]">
+                <div className="absolute left-1/2 top-2 z-10 h-5 w-24 -translate-x-1/2 rounded-full bg-[#111827]" aria-hidden="true" />
+                <Image
+                  src="/phone.png"
+                  alt="My Trade Pal app conversation preview"
+                  height={650}
+                  width={350}
+                  className="block h-auto w-full"
+                />
+              </div>
             </div>
           </div>
         </div>

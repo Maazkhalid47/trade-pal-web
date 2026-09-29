@@ -13,7 +13,7 @@ const Features = () => {
           {" "}
           <p className="text-[#000088] text-[28px]">Why Choose</p>
           <p className="text-[#000088] text-[28px] font-semibold">
-            TradersLounge?
+            My Trade Pal?
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-5">
@@ -23,8 +23,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/access.png"
-              alt="img-1"
+              src="/lightning.png"
+              alt="Direct access to real opportunities icon"
               color="#fff"
               height={50}
               width={50}
@@ -43,8 +43,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/chat.png"
-              alt="img-3"
+              src="/lightning.png"
+              alt="Faster hiring icon"
               color="#fff"
               height={50}
               width={50}
@@ -63,8 +63,8 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/money.png"
-              alt="img-4"
+              src="/check.png"
+              alt="Trusted professional profile icon"
               color="#fff"
               height={50}
               width={50}
@@ -83,17 +83,19 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/location.png"
-              alt="img-4"
+              src="/stripe-logo.png"
+              alt="Stripe secure payments logo"
               color="#fff"
               height={50}
               width={50}
             />
             <p className="text-[#0F172A] font-bold pt-5 pb-2">
-              Secure Payments (Coming Soon)
+              Secure Payments with Stripe
             </p>
             <p className="text-[#475569]">
-              Find work or help right in your own neighborhood.
+              Payments are securely processed by Stripe with encryption and
+              PCI-compliant protection. Your card details stay private and are
+              never stored on My Trade Pal.
             </p>
           </div>
         </div>
