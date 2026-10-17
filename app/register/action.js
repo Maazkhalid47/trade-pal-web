@@ -29,14 +29,15 @@ export async function register(submittedData) {
 
   // Create public.users entry
   const { data: userData, error: userError } = await supabase
-    .from("users")
-    .insert({
-      user_key: authUserId,
-      name,
-      email,
-    })
-    .select()
-    .single();
+  .from("users")
+  .insert({
+    id: authUserId, // NEW: Auth UUID
+    user_key: authUserId,
+    name,
+    email,
+  })
+  .select()
+  .single();
 
   if (userError) {
     return { success: false, message: userError.message };
