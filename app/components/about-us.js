@@ -11,7 +11,7 @@ const AboutUs = () => {
       className="flex md:flex-row flex-col justify-center gap-10 pb-20"
       id="about-us"
     >
-      <Card className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 w-[400px] md:w-[1200px] mx-auto items-center">
+      <Card className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 w-[330px] md:w-[1200px] mx-auto items-center">
         <div className="flex flex-col gap-6">
           <p className="text-[#0F172A] text-[28px] font-bold text-center md:text-left">
             About{" "}
@@ -69,7 +69,7 @@ const AboutUs = () => {
           </div>
         </div>{" "}
         <div className="p-12 rounded-[48px] shadow-2xl shadow-[#00000040] h-[400px] flex flex-col items-center justify-center">
-          <div className="flex flex-row items-center justify-center">
+          <div className="flex flex-row items-center justify-center pl-10">
             <Image
               src={"/collab-1.png"}
               alt="Collaboration 1"

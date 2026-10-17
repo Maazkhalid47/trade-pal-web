@@ -11,7 +11,7 @@ const Header = () => {
     <div className="fixed top-0 left-0 right-0 flex justify-center z-50">
       <div className="px-5 md:px-10 py-8 mt-5 rounded-2xl h-[60px] bg-white/80 shadow-md flex items-center justify-between w-full max-w-[1200px] mx-auto">
         <div className="flex gap-3 items-center">
-          <Image src="/logo.png" alt="logo" height={40} width={40} />
+          <Image src="/logo2.png" alt="logo" height={40} width={40} />
           <p className="text-[16px] md:text-[18px] font-bold text-[#4169E1]">
             My Trade Pal
           </p>

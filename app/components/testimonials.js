@@ -8,9 +8,9 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    src: "/sarah.jpg",
+    src: "/sarah2.jpg",
     alt: "img-1",
-    name: "Sarah Mitchell",
+    name: "Mitchell johnson",
     role: "Homeowner",
     rating: 3,
     text: "I needed a reliable electrician for a quick repair and My Trade Pal made the whole process effortless. Within minutes I received multiple quotes from verified tradespeople and booked the job the same day. The quality of work was excellent and the pricing was transparent. Highly recommended.",
@@ -23,10 +23,11 @@ const testimonials = [
     rating: 5,
     text: "As a property manager I frequently need plumbers, painters, and handymen. My Trade Pal has completely simplified the process of finding skilled professionals. The platform is fast, easy to use, and the tradespeople are genuinely reliable.",
   },
+  // ---------------------------------------------
   {
-    src: "/emily.jpg",
+    src: "/emily2.jpeg",
     alt: "img-4",
-    name: "Emily Robinson",
+    name: "John Robinson",
     role: "Landlord",
     rating: 4,
     text: "I needed a reliable electrician for a quick repair and My Trade Pal made the whole process effortless. Within minutes I received multiple quotes from verified tradespeople and booked the job the same day. The quality of work was excellent and the pricing was transparent. Highly recommended.",
@@ -53,7 +54,7 @@ const Testimonials = () => {
       className="flex md:flex-row flex-col justify-center gap-10 text-center pb-20"
       id="testimonials"
     >
-      <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 w-[400px] md:w-[1200px] mx-auto">
+      <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 w-[330px] md:w-[1200px] mx-auto">
         <div className="flex flex-row gap-3 items-center justify-center">
            <span className="w-12 h-[3px] rounded-full bg-gradient-to-l from-black to-transparent" />
           <p className="text-black text-[28px] font-bold">Testimonials</p>

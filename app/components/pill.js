@@ -10,7 +10,7 @@ const Pill = ({
   iconWidth = 12,
 }) => {
   return (
-    <div className="w-full md:w-auto">
+    <div className="w-85 md:w-auto">
       <div
         className={`flex items-center justify-center md:justify-unset gap-2 text-white font-semibold px-4 py-2 rounded-full ${className}`}
       >

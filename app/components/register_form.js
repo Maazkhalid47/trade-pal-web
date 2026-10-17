@@ -55,13 +55,13 @@ export const RegisterForm = () => {
           <div
             className="w-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url(/register-bg.png)",
+              backgroundImage: "url(/register2-bg.png)",
             }}
           >
             <div className="flex justify-center w-full">
               <form
                 action={handleSubmit}
-                className="shadow-[#0000000A] mx-auto rounded-3xl flex flex-col items-center justify-center w-[400px] md:w-[500px] my-40 p-15 gap-5 bg-white relative"
+                className="shadow-[#0000000A] mx-auto rounded-3xl flex flex-col items-center justify-center w-[330px] md:w-[500px] my-40 p-15 gap-5 bg-white relative"
               >
                 <div className="rounded-full bg-gradient-to-r from-[#02C6C614] to-[#fff] w-[150px] h-[150px] absolute top-[-50] right-0"></div>
                 <div className="flex flex-col md:flex-row gap-1 md:gap-2 items-center">

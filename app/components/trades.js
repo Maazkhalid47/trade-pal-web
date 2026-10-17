@@ -9,7 +9,7 @@ const Trades = () => {
       className="flex md:flex-row flex-col justify-center gap-10 text-center pb-20"
       id="trades"
     >
-      <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 w-[400px] md:w-[1200px] !bg-transparent mx-auto">
+      <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 w-[330px] md:w-[1200px] !bg-transparent mx-auto">
         <div className="flex flex-col md:flex-row gap-1 md:gap-2 items-center">
           {" "}
           <p className="text-black text-[28px]">How It Works for</p>
@@ -19,7 +19,7 @@ const Trades = () => {
           Streamlined process for Tradespeople
           <span className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[5px] bg-[#02C6C6F2]"></span>
         </p>
-        <div className="flex justify-end w-full pb-5">
+        <div className="flex justify-center w-full pb-5">
           <Pill
             icon="/cash.svg"
             text="Only pay a small fee when accepted"
