@@ -84,7 +84,7 @@ const HomeOwners = () => {
             Simple steps for Homeowners
             <span className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[5px] bg-[#4169E1]"></span>
           </p>
-          <div className="flex justify-end w-full pb-5">
+          <div className="flex justify-center w-full pb-5">
             <Pill
               text="Customer Journey"
               className="bg-[#00008A1A]"

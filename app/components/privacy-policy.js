@@ -150,8 +150,8 @@ export const PrivacyPolicy = () => {
 
       <p className="text-sm text-[#94A3B8]">
         For privacy-related enquiries, contact us at{" "}
-        <a href="mailto:privacy@mytradepal.com" className="text-[#000088] underline">
-          privacy@mytradepal.com
+        <a href="mailto:info@mytradepal.uk" className="text-[#000088] underline">
+          info@mytradepal.uk
         </a>.
       </p>
 

@@ -279,8 +279,8 @@ export const TermsAndConditions = () => {
 
       <p className="text-sm text-[#94A3B8]">
         For legal enquiries, contact us at{" "}
-        <a href="mailto:legal@mytradepal.com" className="text-[#000088] underline">
-          legal@mytradepal.com
+        <a href="mailto:info@mytradepal.uk" className="text-[#000088] underline">
+          info@mytradepal.uk
         </a>.
       </p>
 

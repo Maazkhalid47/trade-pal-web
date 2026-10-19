@@ -5,7 +5,7 @@ import Pill from "./pill";
 function Contact() {
     return (
         <div className="pb-20" id="contact">
-            <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 w-[330px] md:w-[700px] lg:w-[1000px] mx-auto">
+            <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 md:p-20 w-[330px] md:w-full lg:w-full lg:min-w-[1000px] lg:max-w-[1200px] mx-auto">
                 <div className="space-y-2 md:space-y-4">
                     <Pill
                         text="WE'RE HERE TO HELP"
@@ -24,7 +24,7 @@ function Contact() {
                     <div className='pt-8 text-start justify-between text-black'>
                         <p className='font-semibold text-xl'>Email</p>
 
-                        <a className='hover:text-[#4169E1] hover:font-semibold' href="mailto:info@mytradepal.uk">
+                        <a className='text-[#4169E1] hover:font-semibold' href="mailto:info@mytradepal.uk">
                             info@mytradepal.uk</a>
                     </div>
                 </div>
