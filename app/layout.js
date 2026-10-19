@@ -24,7 +24,7 @@ export const metadata = {
     template: "%s | My Trade Pal",
   },
   icons: {
-    icon: "/favicon.png",
+    icon: "/logo2.png",
   },
 };
 

@@ -22,10 +22,10 @@ const Subscribe = () => {
       id="early-access"
     >
       <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 md:p-20 w-[330px] md:w-[1200px] mx-auto !bg-[#4169E1]">
-        <p className="text-[48px] font-bold">
+        <p className="text-[48px] text-white font-bold">
           Be the First to Try My Trade Pal
         </p>
-        <p>
+        <p className="text-white">
           Join our early access list and get notified when we launch in your
           area. No spam, just updates.
         </p>

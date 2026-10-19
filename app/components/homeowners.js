@@ -16,8 +16,10 @@ const HomeOwners = () => {
           ease-in-out hover:scale-90 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           id="homeowners"
         >
-          <Image src="/house.png" alt="house" height={64} width={64} />
-          <p className="font-semibold text-[#0F172A]">For Homeowners</p>
+          <div className="flex gap-4 ">
+            <Image src="/house.png" alt="house" height={64} width={64} />
+            <p className="font-semibold pt-5 text-[#0F172A]">For Homeowners</p>
+          </div>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-blue.svg" className="w-4 h-4" alt="1" />
@@ -40,11 +42,13 @@ const HomeOwners = () => {
           </div>
         </Card>
         <Card
-         className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[330px] lg:w-[500px] md:mx-0 mx-auto transition-all duration-300 
+          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[330px] lg:w-[500px] md:mx-0 mx-auto transition-all duration-300 
          ease-in-out hover:scale-90 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
         >
-          <Image src="/wrench.png" alt="house" height={64} width={64} />
-          <p className="font-semibold text-[#0F172A]">For Tradespeople</p>
+          <div className="flex gap-4 ">
+            <Image src="/wrench.png" alt="house" height={64} width={64} />
+            <p className="font-semibold pt-5 text-[#0F172A]">For Tradespeople</p>
+          </div>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
               <img src="/tick-green.svg" className="w-4 h-4" alt="1" />

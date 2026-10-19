@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <div className="flex gap-5 items-center justify-center md:justify-start">
             <Image src="/logo2.png" width={32} height={32} alt="tradePal" />
-            <p className="text-[18px] font-bold">My Trade Pal</p>
+            <p className="text-[18px] text-[#E7E7E7] font-bold">My Trade Pal</p>
           </div>
           <div className="flex justify-center md:justify-start">
-            <p className="text-[#94A3B8] w-[300px] text-center md:text-left">
+            <p className="text-[#E7E7E7] w-[300px] text-center md:text-left">
               Connecting the UK's best tradespeople with homeowners who value
               quality. Building trust, one job at a time.
             </p>
@@ -72,7 +72,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-[#1E293B]">
         <div className="pt-8 flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between gap-6 md:gap-0">
-          <p>© 2026 My Trade Pal Ltd. All rights reserved.</p>
+          <p className="text-[#E7E7E7]">© 2026 My Trade Pal Ltd. All rights reserved.</p>
           <div className="flex gap-6 justify-center">
             <Image src="/facebook.svg" height={24} width={24} alt="facebook"  className="hover:cursor-pointer hover:invert hover:brightness-0 transition" />
             <Image src="/instagram.svg" height={24} width={24} alt="instagram" className="hover:cursor-pointer hover:invert hover:brightness-0 transition" />

@@ -43,7 +43,7 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/lightning.png"
+              src="/handshake4.png"
               alt="Faster hiring icon"
               color="#fff"
               height={50}
@@ -83,7 +83,7 @@ const Features = () => {
                 hover:scale-105 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
           >
             <IconCard
-              src="/stripe-logo.png"
+              src="/stripe-logo2.png"
               alt="Stripe secure payments logo"
               color="#fff"
               height={50}
