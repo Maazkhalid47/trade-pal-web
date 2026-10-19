@@ -32,26 +32,26 @@ const Footer = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-6 md:gap-50 items-center">
           <div className="flex flex-col gap-6 items-center md:items-start justify-center">
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Company
-            </a>
+            </a> */}
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#about-us">
               About Us
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#mission">
               Our Mission
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#contact">
               Contact
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Careers
-            </a>
+            </a> */}
           </div>
           <div className="flex flex-col gap-6 items-center md:items-start justify-center">
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Legal
-            </a>
+            </a> */}
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/privacy-policy">
               Privacy Policy
             </a>
@@ -61,12 +61,12 @@ const Footer = () => {
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/terms-and-conditions">
               Terms of Service
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Cookie Policy
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Trade Agreement
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

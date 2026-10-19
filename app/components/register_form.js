@@ -166,13 +166,13 @@ export const RegisterForm = () => {
                   <p className="text-[#64748B] py-5">
                     I agree to the{" "}
                     <a
-                      href="/privacy"
+                      href="/privacy-policy"
                       className="text-[#4169E1] hover:underline"
                     >
                       Privacy Policy
                     </a>{" "}
                     and{" "}
-                    <a href="/terms" className="text-[#4169E1] hover:underline">
+                    <a href="/terms-and-conditions" className="text-[#4169E1] hover:underline">
                       Terms of Service
                     </a>
                     . *
