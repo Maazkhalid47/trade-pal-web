@@ -29,7 +29,7 @@ const retainedItems = [
 ];
 
 const deletionMailto =
-  "mailto:privacy@mytradepal.com?subject=Account%20deletion%20request&body=Please%20delete%20my%20My%20Trade%20Pal%20account.%0A%0AFull%20name%3A%20%0ARegistered%20email%3A%20%0ARegistered%20phone%20number%3A%20%0AAccount%20type%20(Homeowner%20or%20Tradesperson)%3A%20";
+  "mailto:info@mytradepal.uk?subject=Account%20deletion%20request&body=Please%20delete%20my%20My%20Trade%20Pal%20account.%0A%0AFull%20name%3A%20%0ARegistered%20email%3A%20%0ARegistered%20phone%20number%3A%20%0AAccount%20type%20(Homeowner%20or%20Tradesperson)%3A%20";
 
 function SectionHeading({ children }) {
   return <h2 className="mb-4 text-xl font-bold text-[#000088]">{children}</h2>;
@@ -148,8 +148,8 @@ export default function DeleteAccount() {
           <SectionHeading>Questions?</SectionHeading>
           <p className="leading-relaxed text-[#475569]">
             Contact us at{" "}
-            <a className="text-[#000088] underline" href="mailto:privacy@mytradepal.com">
-              privacy@mytradepal.com
+            <a className="text-[#000088] underline" href="mailto:info@mytradepal.uk">
+              info@mytradepal.uk
             </a>
             . See our{" "}
             <Link className="text-[#000088] underline" href="/privacy-policy">

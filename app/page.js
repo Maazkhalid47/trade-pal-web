@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <div className="!bg-[#F8FAFC]">
+      <div className="bg-[#F8FAFC]!">
         <div className="w-full flex justify-center relative">
           <Hero />
          <BothSides />

@@ -61,10 +61,10 @@ const Footer = () => {
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/terms-and-conditions">
               Terms of Service
             </a>
-            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
-              Cookie Policy
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/support">
+              Support
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Trade Agreement
             </a> */}
           </div>
