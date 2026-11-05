@@ -10,7 +10,7 @@ const deletionMailto =
 
 function Support() {
     return (
-        <div className='bg-[#F8FAFC] flex flex-col text-black items-center text-center min-h-screen '>
+        <div className='bg-[#F8FAFC] flex flex-col text-black items-center text-center min-h-screen px-5 sm:px-0 '>
 
            <div className="lg:w-200 text-start space-y-10">
              <h1 className="pt-16 text-3xl font-bold leading-tight text-[#0F172A] md:text-4xl">My Trade Pal Support</h1>
