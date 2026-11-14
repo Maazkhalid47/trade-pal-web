@@ -29,7 +29,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="text-center w-full">
+    <section id="hero" className="text-center w-full">
       <div
         className="w-full bg-cover bg-[65%_center] md:bg-center bg-no-repeat "
         style={{

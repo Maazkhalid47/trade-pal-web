@@ -35,13 +35,13 @@ const Footer = () => {
             {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Company
             </a> */}
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#about-us">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/#about-us">
               About Us
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#mission">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/#mission">
               Our Mission
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="#contact">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/#contact">
               Contact
             </a>
             {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
@@ -52,7 +52,7 @@ const Footer = () => {
             {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
               Legal
             </a> */}
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/privacy-policy">
+            <a className="text-[#94A3B8] cursor-pointer pt-10 hover:text-white" href="/privacy-policy">
               Privacy Policy
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/delete-account">

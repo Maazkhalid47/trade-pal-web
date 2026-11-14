@@ -86,7 +86,7 @@ export default function DeleteAccount() {
               <Mail className="size-5" aria-hidden="true" />
               Email a deletion request
             </a>
-            <p className="mt-4 select-text text-sm text-[#000088]">privacy@mytradepal.com</p>
+            <p className="mt-4 select-text text-sm text-[#000088]">info@mytradepal.uk</p>
             <div className="mt-6">
               <p className="font-semibold text-[#0F172A]">Please include:</p>
               <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-[#475569]">

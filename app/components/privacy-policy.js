@@ -91,8 +91,8 @@ export const PrivacyPolicy = () => {
         </ul>
         <p className="text-[#475569] mt-4">
           To exercise any of these rights, please contact us at{" "}
-          <a href="mailto:privacy@mytradepal.com" className="text-[#000088] underline">
-            privacy@mytradepal.com
+          <a href="mailto:info@mytradepal.uk" className="text-[#000088] underline">
+            info@mytradepal.uk
           </a>.
         </p>
       </section>

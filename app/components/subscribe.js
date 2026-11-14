@@ -18,10 +18,10 @@ const Subscribe = () => {
   
   return (
     <div
-      className="flex md:flex-row flex-col justify-center gap-10 h-screen text-center pb-20"
+      className="flex md:flex-row flex-col justify-center gap-10 lg:h-120 text-center pb-20"
       id="early-access"
     >
-      <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 md:p-20 w-[330px] md:w-[1200px] mx-auto !bg-[#4169E1]">
+      <Card className="flex flex-col justify-center text-center items-center gap-7 p-10 md:p-20 w-82.5 md:w-300 mx-auto bg-[#4169E1]!">
         <p className="text-[48px] text-white font-bold">
           Be the First to Try My Trade Pal
         </p>
@@ -31,7 +31,7 @@ const Subscribe = () => {
         </p>
         <form className="flex flex-col md:flex-row gap-3" onSubmit={handleSubmit}>
           <input
-            className="bg-white p-3 rounded-xl text-black w-[300px] md:text-left text-center"
+            className="bg-white p-3 rounded-xl text-black w-75 md:text-left text-center"
             placeholder="Enter your email"
             name="email"
             type="email"

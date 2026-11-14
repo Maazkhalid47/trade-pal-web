@@ -1,4 +1,6 @@
 import { PrivacyPolicy } from "../components/privacy-policy";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export const metadata = {
   title: "Privacy Policy",
@@ -7,7 +9,9 @@ export const metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <div className="min-h-screen bg-[#F8FAFC] pt-24">
+      <Header/>
       <PrivacyPolicy />
+      <Footer/>
     </div>
   );
 }
