@@ -22,7 +22,7 @@ const Trades = () => {
         <div className="flex justify-center w-full pb-5">
           <Pill
             icon="/cash.svg"
-            text="Customer contacts first"
+            text="Only pay a small fee when accepted - Customer contacts first"
             className="bg-[#02C6C61A]"
             textClass="text-[#02C6C6F2]"
           />

@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 flex justify-center z-50">
-      <div className="px-5 md:px-2 lg:px-10 py-8 mt-5 rounded-2xl h-15 bg-white/70 shadow-md flex items-center justify-between w-full max-w-300 mx-auto">
+      <div className="px-5 md:px-2 lg:px-10 py-8 mt-5 rounded-2xl h-15 bg-white/90 shadow-md flex items-center justify-between w-full max-w-300 mx-auto">
         <a href="/#hero" className="flex gap-3 items-center">
           <Image src="/logo2.png" alt="logo" height={40} width={40} />
           <p className="text-[16px] md:text-[18px] font-bold text-[#4169E1]">
@@ -17,30 +17,36 @@ const Header = () => {
           </p>
         </a>
 
-        <div className="hidden md:flex gap-4 lg:gap-8 items-center md:text-sm lg:text-lg">
-          <a
-            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
+        <div className="hidden md:flex gap-4 lg:gap-8 items-center md:text-lg">
+          {/* <a
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer "
             href="/#both-sides"
           >
             Homeowners
           </a>
           <a
-            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer "
             href="/#both-sides"
           >
             Tradespeople
-          </a>
+          </a> */}
           <a
-            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer "
             href="/#homeowners"
           >
             How it Works
           </a>
           <a
-            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer font-semibold"
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer "
+            href="/#about-us"
+          >
+            About-us
+          </a>
+          <a
+            className="nav-link text-[#4169E1] hover:text-[#02C6C6] cursor-pointer "
             href="/#contact"
           >
-            Contact-us
+            Contact
           </a>
           <LinkButton
             href="/register"

@@ -24,7 +24,7 @@ const Footer = () => {
               text={"Download on App Store"}
             /> */}
             <a
-              href="https://www.apple.com/app-store/"
+              href="https://apps.apple.com/us/iphone/today"
               target="_blank"
               rel="noopener noreferrer"
             ><img
@@ -53,7 +53,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-6 md:gap-50 items-center">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-28 lg:gap-52 items-center">
           <div className="flex flex-col gap-6 items-center md:items-start justify-center">
             <a className="font-bold text-white">
               Company
@@ -72,10 +72,10 @@ const Footer = () => {
             </a> */}
           </div>
           <div className="flex flex-col gap-6 items-center md:items-start justify-center">
-            <a className=" font-bold text-white">
+            <a className=" font-bold text-white md:pt-2 ">
               Legal
             </a>
-            <a className="text-[#94A3B8] cursor-pointer pt-2 hover:text-white" href="/privacy-policy">
+            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/privacy-policy">
               Privacy Policy
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/delete-account">
