@@ -44,7 +44,7 @@ const Header = () => {
           </a>
           <LinkButton
             href="/register"
-            text="Get Early Access"
+            text="Get Started"
             className="rounded-2xl!"
           />
         </div>
