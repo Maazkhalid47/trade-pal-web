@@ -33,7 +33,7 @@ const Subscribe = () => {
             name="email"
             type="email"
           ></input>
-          <SecondaryButton text="Join Early Access" className="rounded-xl!" />
+          <SecondaryButton text="Sign Up Now" className="rounded-xl!" />
         </form>
       </Card>
     </div>
