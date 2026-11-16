@@ -63,14 +63,14 @@ export const RegisterForm = () => {
                 action={handleSubmit}
                 className="shadow-[#0000000A] mx-auto rounded-3xl flex flex-col items-center justify-center w-[330px] md:w-[500px] my-40 p-15 gap-5 bg-white relative"
               >
-                <div className="rounded-full bg-gradient-to-r from-[#02C6C614] to-[#fff] w-[150px] h-[150px] absolute top-[-50] right-0"></div>
+                <div className="rounded-full bg-gradient-to-r from-[#02C6C614] to-[#fff] w-[150px] h-[150px] absolute top-[-75] right-0"></div>
                 <div className="flex flex-col md:flex-row gap-1 md:gap-2 items-center">
                   {" "}
                   <p className={`text-black text-[28px] ${inter.className}`}>
                     Early Access
                   </p>
                   <p
-                    className={`bg-clip-text text-transparent text-[28px] bg-gradient-to-r from-[#4169E1] to-[#02C6C6] ${inter.className}`}
+                    className={`text-[#4169E1] text-[28px] ${inter.className}`}
                   >
                     Registration
                   </p>
@@ -179,7 +179,7 @@ export const RegisterForm = () => {
                   </p>
                   <PrimaryButton
                     disabled={isPending}
-                    className="w-full flex justify-center !bg-gradient-to-r !from-[#4169E1] !to-[#02C6C6]"
+                    className="w-full flex justify-center !bg-[#02C6C6]"
                     type="submit"
                   >
                     {isPending ? (

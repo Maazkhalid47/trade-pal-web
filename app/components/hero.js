@@ -79,7 +79,7 @@ export default function Hero() {
 
                 <div className="flex gap-2 md:gap-10 md:px-0 px-5">
                   <PrimaryButton
-                    text="Get Early Access"
+                    text="I'm Homeowner"
                     className="rounded-2xl!"
                     icon="/arrow.svg"
                     onClick={() => router.push('/register')}
@@ -129,7 +129,7 @@ export default function Hero() {
                 <div className="relative overflow-hidden rounded-[36px] bg-[#f8fafc]">
                   <div className="absolute left-1/2 top-2 z-10 h-5 w-20 -translate-x-1/2 rounded-full bg-[#111827]" aria-hidden="true" />
                   <Image
-                    src="/phone2.png"
+                    src="/phone3.png"
                     alt="My Trade Pal app conversation preview"
                     height={650}
                     width={350}

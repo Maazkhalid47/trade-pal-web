@@ -13,35 +13,58 @@ const Footer = () => {
           </div>
           <div className="flex justify-center md:justify-start">
             <p className="text-[#E7E7E7] w-[300px] text-center md:text-left">
-              Connecting the UK's best tradespeople with homeowners who value
+              Connecting the UK&apos;s best tradespeople with homeowners who value
               quality. Building trust, one job at a time.
             </p>
           </div>
           <div className="flex flex-col md:items-start lg:flex-row items-center gap-5 ">
-            <SecondaryButton
+            {/* <SecondaryButton
               icon="/apple.svg"
               className="!bg-[#1E293B] !rounded-full w-[180px] h-[80px] "
               text={"Download on App Store"}
-            />
-            <SecondaryButton
+            /> */}
+            <a
+              href="https://www.apple.com/app-store/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><img
+                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on the App Store"
+                className="h-[42px] w-auto"
+              />
+            </a>
+            {/* <SecondaryButton
               icon="/play.svg"
               className="!bg-[#1E293B] !rounded-full w-[180px] h-[80px]"
               text={"Get it on Google Play"}
-            />
+            /> */}
+            <a href="https://play.google.com/store/apps/details?id=com.mytradepal.app" className="relative md:right-3 lg:right-0 lg:bottom-2"
+              target="_blank">
+              <img
+                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                alt="Get it on Google Play"
+                height={58}
+                style={{
+                  height: "58px",
+                  width: "auto",
+                  verticalAlign: "middle",
+                }}
+              />
+            </a>
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-6 md:gap-50 items-center">
           <div className="flex flex-col gap-6 items-center md:items-start justify-center">
-            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            <a className="font-bold text-white">
               Company
-            </a> */}
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/#about-us">
+            </a>
+            <a className="text-[#94A3B8] cursor-pointer  hover:text-white" href="/#about-us">
               About Us
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/#mission">
               Our Mission
             </a>
-            <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/#contact">
+            <a className="text-[#94A3B8] cursor-pointer pb-10 hover:text-white" href="/#contact">
               Contact
             </a>
             {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
@@ -49,10 +72,10 @@ const Footer = () => {
             </a> */}
           </div>
           <div className="flex flex-col gap-6 items-center md:items-start justify-center">
-            {/* <a className="text-[#94A3B8] cursor-pointer hover:text-white">
+            <a className=" font-bold text-white">
               Legal
-            </a> */}
-            <a className="text-[#94A3B8] cursor-pointer pt-10 hover:text-white" href="/privacy-policy">
+            </a>
+            <a className="text-[#94A3B8] cursor-pointer pt-2 hover:text-white" href="/privacy-policy">
               Privacy Policy
             </a>
             <a className="text-[#94A3B8] cursor-pointer hover:text-white" href="/delete-account">

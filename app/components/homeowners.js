@@ -12,8 +12,8 @@ const HomeOwners = () => {
       {" "}
       <div className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20">
         <Card
-          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[330px] lg:w-[500px] md:mx-0 mx-auto transition-all duration-300 
-          ease-in-out hover:scale-90 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
+          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-75 md:w-[330px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
+          ease-in-out hover:scale-105 hover:bg-[#02C6C60D] border-[1.5px]"
           id="homeowners"
         >
           <div className="flex gap-4 ">
@@ -22,15 +22,15 @@ const HomeOwners = () => {
           </div>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4" alt="1" />
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="1" />
               Get free, no-obligation quotes from local trades
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4" alt="2" />
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="2" />
               Only browse verified tradespeople with reviews
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4" alt="3" />
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="3" />
               Direct chat to manage bookings in one place
             </li>
           </ul>
@@ -42,8 +42,8 @@ const HomeOwners = () => {
           </div>
         </Card>
         <Card
-          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-[330px] lg:w-[500px] md:mx-0 mx-auto transition-all duration-300 
-         ease-in-out hover:scale-90 hover:bg-[#02C6C60D] hover:border-[#4169E1] border-[1.5px]"
+          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-75 md:w-[330px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
+         ease-in-out hover:scale-105 hover:bg-[#02C6C60D]  border-[1.5px]"
         >
           <div className="flex gap-4 ">
             <Image src="/wrench.png" alt="house" height={64} width={64} />
@@ -51,15 +51,15 @@ const HomeOwners = () => {
           </div>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4" alt="1" />
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="1" />
               Access steady stream of local jobs daily
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4" alt="2" />
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="2" />
               Choose which jobs to respond to - no pressure
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4" alt="3" />
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="3" />
               Pay only £7.99 when your quote is accepted
             </li>
           </ul>
@@ -116,7 +116,7 @@ const HomeOwners = () => {
                 width={18}
               />
               <p className="text-[#0F172A] font-bold pt-5 pb-2">
-                2. Receive Applications
+                2. Receive Proposals
               </p>
               <p className="text-[#475569]">
                 Skilled tradespeople express interest.
