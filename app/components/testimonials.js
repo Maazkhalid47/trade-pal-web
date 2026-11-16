@@ -12,7 +12,7 @@ const testimonials = [
     alt: "img-1",
     name: "Mitchell johnson",
     role: "Homeowner",
-    rating: 3,
+    rating: 5,
     text: "I needed a reliable electrician for a quick repair and My Trade Pal made the whole process effortless. Within minutes I received multiple quotes from verified tradespeople and booked the job the same day. The quality of work was excellent and the pricing was transparent. Highly recommended.",
   },
   {
@@ -56,7 +56,7 @@ const Testimonials = () => {
     >
       <Card className="flex flex-col justify-center text-center items-center gap-5 p-10 w-[330px] md:w-[1200px] mx-auto">
         <div className="flex flex-row gap-3 items-center justify-center">
-           <span className="w-12 h-[3px] rounded-full bg-gradient-to-l from-black to-transparent" />
+          <span className="w-12 h-[3px] rounded-full bg-gradient-to-l from-black to-transparent" />
           <p className="text-black text-[28px] font-bold">Testimonials</p>
           <span className="w-12 h-[3px] rounded-full bg-gradient-to-r from-black to-transparent" />
         </div>
@@ -71,7 +71,7 @@ const Testimonials = () => {
             const isCenter = position === 1;
             const t = testimonials[idx];
             return (
-             <div
+              <div
                 key={idx}
                 onClick={() => setActiveIndex(idx)}
                 className={`

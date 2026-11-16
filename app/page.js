@@ -24,14 +24,14 @@ export default function Home() {
       <div className="bg-[#F8FAFC]!">
         <div className="w-full flex justify-center relative">
           <Hero />
-         <BothSides />
+          <BothSides />
         </div>
         <HomeOwners />
         <Trades />
         <Features />
         <AboutUs />
         <Mission />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Subscribe />
         <Contact />
       </div>

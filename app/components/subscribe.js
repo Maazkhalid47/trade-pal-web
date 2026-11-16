@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 const Subscribe = () => {
   const router = useRouter();
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -15,7 +15,7 @@ const Subscribe = () => {
 
     router.push(`/register?email=${encodeURIComponent(email)}`);
   }
-  
+
   return (
     <div
       className="flex md:flex-row flex-col justify-center gap-10 lg:h-120 text-center pb-20"
@@ -25,10 +25,7 @@ const Subscribe = () => {
         <p className="text-[48px] text-white font-bold">
           Be the First to Try My Trade Pal
         </p>
-        <p className="text-white">
-          Join our early access list and get notified when we launch in your
-          area. No spam, just updates.
-        </p>
+
         <form className="flex flex-col md:flex-row gap-3" onSubmit={handleSubmit}>
           <input
             className="bg-white p-3 rounded-xl text-black w-75 md:text-left text-center"
