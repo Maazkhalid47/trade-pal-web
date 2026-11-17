@@ -70,7 +70,7 @@ export default function Hero() {
                 </motion.h1>
 
                 <div className="break-words w-full max-w-full min-w-0 m-auto md:m-0 px-5 md:px-0">
-                  <p className="text-center md:text-left text-[#D1D5DB]">
+                  <p className="text-center md:text-left text-[#D1D5DB] text-2xl">
                     The simplest way to connect skilled tradespeople with
                     homeowners. No stress, no hidden fees, just quality local
                     work.
