@@ -32,6 +32,8 @@ const Subscribe = () => {
             placeholder="Enter your email"
             name="email"
             type="email"
+            pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z]{2,}$"
+            required
           ></input>
           <SecondaryButton text="Sign Up Now" className="rounded-xl!" />
         </form>

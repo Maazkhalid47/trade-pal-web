@@ -20,20 +20,17 @@ const AboutUs = () => {
             </span>
           </p>
           <p className="text-[#475569]">
-            We're bridging the gap between quality home services and digital
-            convenience. Our platform is designed to handle everything from
-            first contact to final payment.
+            We make finding the right tradesperson simple and stress-free. Whether you're fixing a leaking tap, giving your home a fresh look, or planning a bigger project, My Trade Pal brings homeowners and skilled local tradespeople together. From posting a job and receiving quotes to chatting, booking, and making payments, everything you need is in one easy-to-use place.
           </p>
           <div className="flex flex-col items-center gap-5">
             <div className="flex items-center gap-3">
               <Image src={"/check.png"} alt="Check" height={50} width={50} />
               <div>
                 <p className="text-[#0F172A] font-bold pt-5 pb-2">
-                  Trusted Professionals
+                  Find the Right Professional
                 </p>
                 <p className="text-[#475569]">
-                  Every pro is manually vetted and reviewed by homeowners like
-                  you.
+                 Post your job and hear from professionals ready to help. Compare applications, profiles and quotes, then choose the right person for your project.
                 </p>
               </div>
             </div>
@@ -41,11 +38,10 @@ const AboutUs = () => {
               <Image src={"/lock.png"} alt="Lock" height={50} width={50} />
               <div>
                 <p className="text-[#0F172A] font-bold pt-5 pb-2">
-                  Secure Payments
+                  Pay Securely with Stripe
                 </p>
                 <p className="text-[#475569]">
-                  Funds are held safely in escrow and only released when the job
-                  is done.
+                  When your job is complete, you can conveniently pay your professional through the app using stripe. 
                 </p>
               </div>
             </div>
@@ -58,18 +54,17 @@ const AboutUs = () => {
               />
               <div>
                 <p className="text-[#0F172A] font-bold pt-5 pb-2">
-                  Fast Job Matching
+                  Choose & Connect with Confidence
                 </p>
                 <p className="text-[#475569]">
-                  Get multiple quotes within hours, not days, from nearby
-                  experts.
+                  Review applications from professionals, choose the one that's right for your job, and connect directly through the app.
                 </p>
               </div>
             </div>
           </div>
         </div>{" "}
         <div className="p-12 rounded-[48px] shadow-2xl shadow-[#00000040] h-[400px] flex flex-col items-center justify-center">
-          <div className="flex flex-row items-center justify-center pl-10">
+          <div className="flex flex-row items-center justify-center pl-10 lg:pt-10">
             <Image
               src={"/collab-1.png"}
               alt="Collaboration 1"

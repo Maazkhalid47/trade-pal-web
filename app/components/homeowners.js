@@ -13,7 +13,7 @@ const HomeOwners = () => {
       <div className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20">
         <Card
           className="flex flex-col justify-center text-center items-start gap-5 p-10 w-75 md:w-[330px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
-          ease-in-out hover:scale-105 hover:bg-[#02C6C60D] border-[1.5px]"
+          ease-in-out hover:scale-105 hover:bg-[#02C6C60D]"
           id="homeowners"
         >
           <div className="flex gap-4 ">
@@ -43,7 +43,7 @@ const HomeOwners = () => {
         </Card>
         <Card
           className="flex flex-col justify-center text-center items-start gap-5 p-10 w-75 md:w-[330px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
-         ease-in-out hover:scale-105 hover:bg-[#02C6C60D]  border-[1.5px]"
+         ease-in-out hover:scale-105 hover:bg-[#02C6C60D] "
         >
           <div className="flex gap-4 ">
             <Image src="/wrench.png" alt="house" height={64} width={64} />
