@@ -10,9 +10,9 @@ const HomeOwners = () => {
   return (
     <>
       {" "}
-      <div className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-10 text-center pt-40 pb-20">
+      <div className="!bg-[#F8FAFC] flex md:flex-row flex-col justify-center gap-8 text-center pt-40 pb-20">
         <Card
-          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-75 md:w-[330px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
+          className="flex flex-col justify-center text-start items-start gap-5 p-10 w-80 md:w-[350px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
           ease-in-out hover:scale-105 hover:bg-[#02C6C60D]"
           id="homeowners"
         >
@@ -22,16 +22,28 @@ const HomeOwners = () => {
           </div>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="1" />
-              Get free, no-obligation quotes from local trades
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-0" alt="1" />
+              Post your job for free
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="2" />
-              Only browse verified tradespeople with reviews
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-0" alt="2" />
+              Add photos and your budget
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="3" />
-              Direct chat to manage bookings in one place
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-2 md:bottom-0" alt="3" />
+              Compare proposals from local trades
+            </li>
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-0" alt="3" />
+              See their work and reviews
+            </li>
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-0" alt="3" />
+              Choose who to contact
+            </li>
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
+              <img src="/tick-blue.svg" className="w-4 h-4 relative bottom-0" alt="3" />
+              Chat and pay in the app
             </li>
           </ul>
           <div className="flex justify-center w-full">
@@ -42,7 +54,7 @@ const HomeOwners = () => {
           </div>
         </Card>
         <Card
-          className="flex flex-col justify-center text-center items-start gap-5 p-10 w-75 md:w-[330px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
+          className="flex flex-col justify-center text-start items-start gap-5 p-10 w-80 md:w-[350px] lg:w-[420px] md:mx-0 mx-auto transition-all duration-300 
          ease-in-out hover:scale-105 hover:bg-[#02C6C60D] "
         >
           <div className="flex gap-4 ">
@@ -51,16 +63,28 @@ const HomeOwners = () => {
           </div>
           <ul className="flex flex-col items-start gap-2">
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="1" />
-              Access steady stream of local jobs daily
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-0" alt="1" />
+              Browse local jobs for free
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="2" />
-              Choose which jobs to respond to - no pressure
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-0" alt="2" />
+              Send proposals for free
             </li>
             <li className="flex items-center gap-2 text-[#475569] text-[14px]">
-              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-2 lg:bottom-0" alt="3" />
-              Pay only £7.99 when your quote is accepted
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-0" alt="3" />
+              Customers contact you first
+            </li>
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-0" alt="3" />
+              You choose whether to connect
+            </li>
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-0" alt="3" />
+              Show your work and build reviews
+            </li>
+            <li className="flex items-center gap-2 text-[#475569] text-[14px]">
+              <img src="/tick-green.svg" className="w-4 h-4 relative bottom-2 md:bottom-0" alt="3" />
+              Chat and take payments in the app
             </li>
           </ul>
           <div className="flex justify-center w-full">
