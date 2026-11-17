@@ -77,18 +77,40 @@ export default function Hero() {
                   </p>
                 </div>
 
-                <div className="flex gap-2 md:gap-10 md:px-0 px-5">
-                  <PrimaryButton
+                <div className="flex gap-2 pt-3 md:px-0 px-5">
+                  {/* <PrimaryButton
                     text="I'm Homeowner"
                     className="rounded-2xl!"
                     icon="/arrow.svg"
                     onClick={() => router.push('/register')}
-                  />
-                  <SecondaryButton
+                  /> */}
+                  <a
+                    href="https://apps.apple.com/us/iphone/today"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ><img
+                      src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                      alt="Download on the App Store"
+                      className="h-[42px] w-auto"
+                    />
+                  </a>
+                  <a href="https://play.google.com/store/apps/details?id=com.mytradepal.app" 
+                    target="_blank" className="relative bottom-2">
+                    <img
+                      src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                      alt="Get it on Google Play"
+                      className="h-[60px]"
+                      style={{
+                        width: "auto",
+                        verticalAlign: "middle",
+                      }}
+                    />
+                  </a>
+                  {/* <SecondaryButton
                     text="I'm a TradePerson"
                     className="rounded-2xl!"
                     isHollow
-                  />
+                  /> */}
                 </div>
 
                 <div className="pt-5 flex items-center gap-5 mx-auto w-[300px] md:w-full">
